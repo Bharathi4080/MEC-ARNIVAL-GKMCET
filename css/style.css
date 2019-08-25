@@ -111,6 +111,9 @@ strong.headline-with-separator, .headline-with-separator {
     color:white !important;
     
 }
+.category-small-box:hover i{
+    color:white !important;
+}
 
 
 /* Media Queries For Small Category Boxes */
@@ -170,6 +173,7 @@ strong.headline-with-separator, .headline-with-separator {
     display: inline-block;
     margin-top: 20px;
 }
+
 .im {
     font-family: 'iconsmind' !important;
     speak: none;
