@@ -11,7 +11,7 @@
      
 }
 .navbar-brand{
-    font-size:4vw !important;
+    font-size:3.3vw !important;
     padding: 0.5rem 1px;
     margin-right: 0px !important;
     font-family: 'Uncial Antiqua', cursive;
@@ -169,8 +169,8 @@ strong.headline-with-separator, .headline-with-separator {
     font-size: 16px;
     color: #333;
     transition: 0.4s;
-    line-height: 22px;
-    margin-top: 10px;
+    line-height: 20px;
+    margin-top: 20px;
     margin-bottom: 7px;
 }
 .category-small-box i {
