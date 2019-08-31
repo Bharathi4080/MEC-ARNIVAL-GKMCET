@@ -35,5 +35,8 @@ function submitRegister(){
   }
 
   ref.push(data)
-
+  {
+    alert("sucessfull register");
+    
+  }
 }
