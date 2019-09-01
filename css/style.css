@@ -135,6 +135,9 @@ body{
     max-height: 30%;
     overflow: auto;
   }
+  .popup .content p{
+      font-size: 18px;
+  }
   
   @media screen and (max-width: 700px){
     .box{
@@ -147,6 +150,7 @@ body{
 .btn-outline-primary {
     color:white;
     border-color:white;
+    
 }
 .btn-outline-primary:hover{
     color: rgb(255, 174, 0);
@@ -168,9 +172,9 @@ body{
 }
 .btn-primary:hover{
 
-    border:3px solid rgb(255, 174, 0);
+    border:3px solid rgb(255, 174, 0) !important;
     box-shadow: #f2f2f2;
-    background: #f2f2f2;
+    background: #f2f2f2 !important;
     color:rgb(255, 174, 0) ;
 
 }
@@ -301,9 +305,8 @@ strong.headline-with-separator, .headline-with-separator {
 	flex-direction: column;
 	justify-content: center;
 }
-.im-icon-Hamburger:before {
-    content: "\e98c";
-}
+
+
 .category-small-box h4 {
     display: block;
 }
@@ -346,10 +349,6 @@ strong.headline-with-separator, .headline-with-separator {
 	z-index: 0;
     transform: translateZ(0);   
 }
- 
-
-
-
 .bubbles li {
 	position: absolute;
 	list-style: none;
