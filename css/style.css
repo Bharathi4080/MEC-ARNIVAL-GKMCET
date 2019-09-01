@@ -7,7 +7,7 @@ background-size: 100%;
 
 
 .navbar{
-    background-color:rgba(255, 223, 0,0.9) !important;
+    background-color:  rgb(255, 174, 0,0.9) !important;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px !important;
@@ -61,7 +61,7 @@ body{
     background-color: #ffffff;
     margin: 15% auto; /* 15% from the top and centered */
     padding: 20px;
-    border: 5px solid rgb(248, 182, 0);
+    border: 5px solid  rgb(255, 174, 0) ;
     border-radius: 20px;
     width: 80%;
     height: 40%;
@@ -91,6 +91,7 @@ body{
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: 1;
     background: rgba(0, 0, 0, 0.7);
     transition: opacity 500ms;
     visibility: hidden;
@@ -105,7 +106,7 @@ body{
     padding: 20px;
     background: #fff;
     border-radius: 15px;
-    border: 2px solid rgb(248, 182, 0);
+    border: 3px solid rgb(255, 174, 0);
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
@@ -113,13 +114,13 @@ body{
   
   .popup h2 {
     margin-top: 0;
-    color:  rgb(248, 182, 0) !important;
+    color:  rgb(255, 174, 0)   !important;
     font-family: Tahoma, Arial, sans-serif;
   }
   .popup .close1 {
     position:absolute;;
-    top: 20px;
-    right: 30px;
+    top: 10px;
+    right: 20px;
     float: right !important;
     transition: all 200ms;
     font-size: 50px;
@@ -148,9 +149,9 @@ body{
     border-color:white;
 }
 .btn-outline-primary:hover{
-    color: rgb(255, 223, 0);
+    color: rgb(255, 174, 0);
     background: transparent !important;
-    border : 3px solid rgb(255, 223, 0) !important;
+    border : 3px solid rgb(255, 174, 0) !important;
 
 }
 .btn {
@@ -162,15 +163,15 @@ body{
     overflow: hidden;
 }
 .btn-primary{
-    background:rgb(255, 223, 0);
+    background:rgb(255, 174, 0) ;
     border:3px solid white;
 }
 .btn-primary:hover{
 
-    border:3px solid rgb(255, 223, 0);
+    border:3px solid rgb(255, 174, 0);
     box-shadow: #f2f2f2;
     background: #f2f2f2;
-    color:rgb(255, 223, 0);
+    color:rgb(255, 174, 0) ;
 
 }
 .fixed-background{
