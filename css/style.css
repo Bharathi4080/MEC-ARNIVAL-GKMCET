@@ -86,7 +86,7 @@ body{
     cursor: pointer;
   }
   .overlay {
-    position: fixed;
+    position: absolute;;
     top: 0;
     bottom: 0;
     left: 0;
@@ -110,6 +110,7 @@ body{
     width: 30%;
     position: relative;
     transition: all 5s ease-in-out;
+
   }
   
   .popup h2 {
