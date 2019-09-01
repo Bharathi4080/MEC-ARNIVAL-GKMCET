@@ -10,10 +10,11 @@
 <link rel="shortcut icon" href="image/log02.ico" type="image/x-icon"> 
 <script src='https://kit.fontawesome.com/a076d05399.js'></script>
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="main1.js"></script>
 <title>MEC-ARNIVAL/GKMCET</title>
 </head>
  <body>
-  <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
+  <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
         <a class="navbar-brand" href="#">GKM COLLEGE OF ENGNEERING<br> AND TECHNOLOGY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,13 +38,57 @@
       </div>
       <center> 
         <div>
-          <button type="button" class="btn btn-outline-primary">ABOUT US</button><button type="button" id="myButton" class="btn btn-primary">REGISTER NOW</button>
+          <button type="button" class="btn btn-outline-primary" id="myBtn">ABOUT US</button>
+          
+          
+          <button type="button" id="myButton" class="btn btn-primary">REGISTER NOW</button>
+          <div id="myModal" class="modal">
+
+              <!-- Modal content -->
+              <div class="modal-content">
+                <span class="close">&times;</span>
+                <ul>
+                  <li>A team should consist of maximum 3 members only.</li>
+                  <li>A ppt should consist of maximum 15 slides only.</li>
+                  <li>Please bring hardcopy of the submitted paper on the day of event.
+                  </li>
+                  <li>
+                    Time duration:7 minutes.
+                  </li>
+              
+                </ul>
+              </div>
+              </div>
         </div></center>
         <hr>
         <script type="text/javascript">
-          document.getElementById("myButton").onclick = function () {
+   var modal = document.getElementById("myModal");
+  
+  
+  var btn = document.getElementById("myBtn");
+  
+  
+  var span = document.getElementsByClassName("close")[0];
+  
+  
+  btn.onclick = function() {
+    modal.style.display = "block";
+  }
+  
+  span.onclick = function() {
+    modal.style.display = "none";
+  }
+  
+  
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  document.getElementById("myButton").onclick = function () {
               location.href = "index1.html";
           };
+
       </script>
         
         <div class="container">
@@ -60,11 +105,28 @@
                 <div class="categories-boxes-container margin-top-5 margin-bottom-30">
                   
                   <!-- Box -->
-                  <a href="#" class="category-small-box active">
+                   <a href="#popup1"class="category-small-box active">
                       <i class="fas fa-file-powerpoint"></i> 
                     <h4>PAPER PRESENTATION</h4>
                     <span class="category-box-counter">12</span>
-                  </a>
+                    </a> 
+                    <div id="popup1" class="overlay">
+                      <div class="popup">
+                        <h2>paper presentation</h2>
+                        <a class="close1" href="#">&times;</a>
+                        <div class="content">
+                          <ul>
+                            <li>A team should consist of maximum 3 members only.</li>
+                            <li>A ppt should consist of maximum 15 slides only.</li>
+                            <li>Please bring hardcopy of the submitted paper on the day of event.
+                            </li>
+                            <li>
+                              Time duration:7 minutes.
+                            </li>
+                        </ul>
+                        </div>
+                      </div>
+                    </div>
           
                   <!-- Box -->
                   <a href="#" class="category-small-box">

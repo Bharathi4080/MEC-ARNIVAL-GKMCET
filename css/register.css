@@ -1,5 +1,5 @@
 .input{
-    width: 70%;
+    width: 90%;
     background: transparent;
     border: none;
     border-bottom: 2px solid gray;
@@ -54,12 +54,12 @@ body{
     padding: 0 0 20px;
     color: #ffff;
     text-transform: uppercase;
-    transition:all 4s ease-in-out;
+    transition:all 4s 1 ease;
 
 }
 form{
     margin-top:30px;
-    transition: all 4s ease-in-out;
+    transition: all 4s 1 ease;
 
 }
 .custom-radio{

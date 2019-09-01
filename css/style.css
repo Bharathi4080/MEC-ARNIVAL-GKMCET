@@ -7,6 +7,7 @@ background-size: 100%;
 
 
 .navbar{
+    background-color:rgba(255, 223, 0,0.9) !important;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 16px !important;
@@ -40,21 +41,137 @@ background-size: 100%;
 
 }
 body{
-    background-color:#767171 !important;
+    background-color:#000000 !important;
 }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index:1;  /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #ffffff;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 5px solid rgb(248, 182, 0);
+    border-radius: 20px;
+    width: 80%;
+    height: 40%;
+    color: rgba(3, 3, 3);
+    text-align: left;
+    margin-top:300px; ; /* Could be more or less, depending on screen size */
+  }
+  
+  /* The Close Button */
+  .close {
+    color:red;
+    text-align: none;
+    float: right !important;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color:rgb(255, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  .popup {
+    margin: 100px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    border: 2px solid rgb(248, 182, 0);
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color:  rgb(248, 182, 0) !important;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close1 {
+    position:absolute;;
+    top: 20px;
+    right: 30px;
+    float: right !important;
+    transition: all 200ms;
+    font-size: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+  }
+  .popup .close1:hover {
+    color: rgb(255, 0, 0) !important;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  
+  @media screen and (max-width: 700px){
+    .box{
+      width: 70%;
+    }
+    .popup{
+      width: 70%;
+    }
+  }
 .btn-outline-primary {
     color:white;
     border-color:white;
 }
+.btn-outline-primary:hover{
+    color: rgb(255, 223, 0);
+    background: transparent !important;
+    border : 3px solid rgb(255, 223, 0) !important;
+
+}
 .btn {
     margin: 5px;
+    font-size: 18px;
     font-family: 'Emblema One', cursive;
     border-width: medium !important;
     cursor:  pointer !important;
     overflow: hidden;
 }
+.btn-primary{
+    background:rgb(255, 223, 0);
+    border:3px solid white;
+}
 .btn-primary:hover{
-    border-color: darkblue;
+
+    border:3px solid rgb(255, 223, 0);
+    box-shadow: #f2f2f2;
+    background: #f2f2f2;
+    color:rgb(255, 223, 0);
+
 }
 .fixed-background{
     max-width: 100%;
