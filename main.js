@@ -31,14 +31,20 @@ function submitRegister(){
     college : document.querySelector("#college").value ,
     department : document.querySelector("#department").value,
     email : document.querySelector("#email").value ,
-    dnumber : document.querySelector("#number").value ,
-    egender : document.querySelector("input[name=gender]:checked").value,
+    dnumber : document.querySelector("#number").value 
+   }
+   var checkboxes = document.getElementsByName('test');
+   var selected=[];
+   for(var i=1; i<checkboxes.length;i++){
+     if (checkboxes[i].checked){
+       selected.push(checkboxes[i].value);
+     }
    }
     ref.push(data)
+    ref.push(selected)
   {
     alert("sucessfull register");
-    
-  }
+    }
 }
 
  
