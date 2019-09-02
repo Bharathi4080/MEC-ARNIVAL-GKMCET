@@ -4,7 +4,7 @@ background-image: url(img/bg.png);
 background-size: 100%;
 }
 
-
+ 
 .navbar{
     background-color:  rgb(255, 174, 0,0.9) !important;
     text-transform: uppercase;
@@ -194,13 +194,14 @@ strong.headline-with-separator, .headline-with-separator {
     display: flex;
     flex-wrap: wrap;
 }
-.category-small-box {
-    background-color: rgb(255, 174, 0);
-
+.category-small-box{
+    background-color:rgb(255, 174, 0); 
 }
+
+
 .category-small-box:hover{
     background-color:  white;
-    color: rgb(255, 174, 0) ;
+    color: rgb(226, 217, 196) ;
     text-decoration: none;
 }
 .category-small-box h4 {
@@ -236,7 +237,7 @@ strong.headline-with-separator, .headline-with-separator {
 
 .category-small-box {
 	float: left;
-	background-color: rgb(255, 174, 0);
+	
 	border-radius: 4px;
 	margin: 20px 0 0 20px;
 	padding:20px 16px;
