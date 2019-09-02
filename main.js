@@ -29,16 +29,16 @@ function submitRegister(){
     afirstName : document.querySelector("#firstName").value ,
     blastName : document.querySelector("#lastName").value ,
     college : document.querySelector("#college").value ,
+    department : document.querySelector("#department").value,
     email : document.querySelector("#email").value ,
     dnumber : document.querySelector("#number").value ,
-    egender : document.querySelector("input[name=gender]:checked").value
-  }
-
-  ref.push(data)
+    egender : document.querySelector("input[name=gender]:checked").value,
+   }
+    ref.push(data)
   {
     alert("sucessfull register");
     
   }
 }
 
-
+ 
