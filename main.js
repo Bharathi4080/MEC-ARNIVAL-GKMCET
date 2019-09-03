@@ -35,7 +35,7 @@ function submitRegister(){
    }
    var checkboxes = document.getElementsByName('test');
    var selected=[];
-   for(var i=1; i<checkboxes.length;i++){
+   for(var i=0; i<checkboxes.length;i++){
      if (checkboxes[i].checked){
        selected.push(checkboxes[i].value);
      }
