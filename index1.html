@@ -58,7 +58,7 @@
                      <span class="checkmark"></span>
                  </label>
                  <label class="container">mr.cad
-                     <input class="check2" type="checkbox" name="test" value="mr.cad">
+                     <input class="check1" type="checkbox" name="test" value="mr.cad">
                       <span class="checkmark"></span>
                   </label> 
                   <label class="container">mr.manufacturer
@@ -98,7 +98,7 @@
 
 <script type="text/javascript">
  $('.check1').on('change', function() {
-   if($('.check1:checked').length > 3) {
+   if($('.check1:checked').length > 4) {
        this.checked = false;
        alert('Oops! You cannot participate in more than 4 events');
    }
